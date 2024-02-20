@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+body{background-color:thistle;
+border: dotted 10px black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+max-width: 1200px;
+margin-right:auto;
+margin-left: auto;
+padding: 2em;
+
+}
+
+h1{font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
