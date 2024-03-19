@@ -1,4 +1,12 @@
+/* minimum universal selector*/
+
+*{  margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{background-color: grey;}
+p{margin-bottom: 1em;}
 
 h1{width: 50; height: 50;}
 
@@ -13,6 +21,9 @@ h1{width: 50; height: 50;}
     padding: 1em;
 
 }
+
+
+/*------header---------*/
 
 header{background-color: lightgray;
 background-repeat: no-repeat;
@@ -40,3 +51,44 @@ border-radius: 10px;
 width: 5em;
 text-align: center;
 text-decoration: none;}
+
+/*------navigation---------*/
+
+nav{background-color: grey; padding-right: 0.5em;}
+nav a{color: black;
+text-decoration: none;}
+nav a:hover{text-decoration: underline;}
+nav li{
+    display: inline-block;
+    margin-right:10px;
+    padding: 10px;
+    padding-left: 2em;
+}
+
+/* 3 ways to do "float" the many elements
+normally going top to bottm 
+right & left  - image right( or left) and text wrap it around
+if prevent order distruprion? use "clear"  / */
+
+/* -----------main----------- */
+
+main{padding: 2em;}
+
+.col-left{
+    float: left;
+    width: 48%;
+}
+.col-right{
+    float:right;
+    width:48%;
+
+}
+
+footer{clear: both;
+    padding: 15em;}
+
+
+
+
+
+
